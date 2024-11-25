@@ -1,0 +1,153 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #4CAF50, #008CBA);
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background-color: #555;
+}
+
+/* Sections */
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+
+/* About Section */
+#about p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Skills Section */
+.skills-category {
+  margin-bottom: 30px;
+}
+
+.skills-category h3 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.skills-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-category ul li {
+  background: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skills-category ul li:hover {
+  background-color: #f0f0f0;
+  cursor: default;
+}
+
+/* Projects Section */
+.project {
+  background: #fff;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact p a {
+  color: #333;
+  text-decoration: none;
+}
+
+#contact p a:hover {
+  color: #4CAF50;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
